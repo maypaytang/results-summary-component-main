@@ -79,6 +79,9 @@
     width: 375px;
     max-width: 375px;
     height: 500px;
+<<<<<<< HEAD
+>>>>>>> parent of 216504f (Changes to mobile size)
+=======
 >>>>>>> parent of 216504f (Changes to mobile size)
     border-radius: 30px;
     display: flex;
@@ -234,10 +237,13 @@
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     #attribution{
         position: fixed;
         bottom: 0;
     }
+=======
+>>>>>>> parent of 216504f (Changes to mobile size)
 =======
 >>>>>>> parent of 216504f (Changes to mobile size)
 }
