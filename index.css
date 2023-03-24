@@ -1,15 +1,21 @@
 *{
-    margin:0;
-    padding:0;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    text-align: center;
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
-#wrapperDiv{
-    width: 100%;
+body{
     display: flex;
-    flex-wrap: wrap;
+    text-align: center;
+}
+
+#wrapperDiv{
+    background-color: pink;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
 }
 
 #purpleDisplayDiv{
@@ -18,7 +24,7 @@
     height: 350px;
     background: linear-gradient(0deg, rgba(49,44,234,1) 0%, rgba(103,67,255,1) 100%);;
     border-radius: 30px;
-    padding: 70px 20px 20px 20px;
+    padding-top: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,6 +32,7 @@
 
 #yourResultTxt{
     color: hsl(241, 100%, 89%);
+    background-color: aquamarine;
 }
 
 #purpleDisplayCircle{
@@ -41,6 +48,7 @@
     font-size: 45px;
     margin-top: 25px;
     margin-bottom: 0px;
+    background-color: bisque;
 }
 
 #maxTxt{
@@ -52,6 +60,7 @@
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    background-color: pink;
 }
 
 #feedbackTitleTxt{
@@ -64,9 +73,9 @@
 }
 
 #summaryDiv{
-    width: 375px;
-    max-width: 375px;
-    height: 400px;
+    background-color: bisque;
+    width: 300px;
+    max-width: 350px;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -81,6 +90,7 @@
 
 #categoriesDiv{
     justify-content: space-between;
+    background-color: aqua;
 }
 
 #category0{
@@ -159,7 +169,7 @@
 }
 
 #attribution{
-    left: 0;
+    position: fixed;
     bottom: 0;
     width: 100%;
     color: hsl(220, 15%, 55%);
@@ -213,5 +223,10 @@
     .category-container-div{
         margin-top: 10px;
         padding: 15px;
+    }
+
+    #attribution{
+        position: fixed;
+        bottom: 0;
     }
 }
