@@ -16,8 +16,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Screenshot
 
-![](./my-solution-screenshot-mobile.png)
-![](./my-solution-screenshot-desktop.png)
+You can find the screenshots of my solution in the images folder.
 
 ### Links
 
@@ -43,6 +42,7 @@ I learned that from now, the first thing I will write in css is this:
     padding:0;
     box-sizing: border-box;
 }
+And that if the code suddenly does not work, I wil start with re-starting the browser.
 
 I also learned more about JSON and how to fetch data from JSON files.
 
